@@ -1,10 +1,3 @@
-# Updated Student Management System
-# - Explicit SELECT columns to avoid column-order mismatches
-# - Optional modern look using ttkbootstrap if available
-# - Responsive layout with PanedWindow and weight-configured grids
-# - Fixed insert/update/search/export to map fields reliably
-# - Smaller default window size and minimum size
-
 import tkinter as tk
 from tkinter import ttk, messagebox, filedialog
 import sqlite3
